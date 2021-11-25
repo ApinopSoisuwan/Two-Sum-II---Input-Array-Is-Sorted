@@ -1,7 +1,4 @@
 def twoSum(numbers,target):
-    l = 0
-    h = len(numbers) -1
-    re = []
     l, h = 0, len(numbers) - 1
     while l < h:
         if numbers[l] + numbers[h] == target:
